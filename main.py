@@ -135,7 +135,12 @@ def main():
 
 
 if __name__ == '__main__':
-    try:
-        main()
-    except KeyboardInterrupt:
-        print(I18n.get('Bye'))
+    c = 5
+    while c:
+        try:
+            main()
+        except KeyboardInterrupt:
+            print(I18n.get('Erro'))
+            pass
+        except :
+            print('deu erro')
