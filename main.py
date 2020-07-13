@@ -142,5 +142,3 @@ if __name__ == '__main__':
         except KeyboardInterrupt:
             print(I18n.get('Erro'))
             pass
-        except :
-            print('deu erro')
