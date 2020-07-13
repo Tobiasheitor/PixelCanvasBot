@@ -1,0 +1,1 @@
+worker: ./main.py -i dark.png -x 3875 -y 2661
